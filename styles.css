@@ -1,14 +1,26 @@
 * {
   box-sizing: border-box;
+  color: #fefcfb;
 }
 
 body {
-  margin: 0;
+  margin: 10px;
   font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
+  background-color: #1282a2;
+
 }
 
-.pass-box{
-  border: solid 2px greenyellow;
+.display{
+  display: inline-flex;
+  background: #034078;
+}
+svg{
+  color: #0a1128;
+  margin: 2px;
+}
+input{
+  font-size: larger;
+  color: #0a1128;
+  border: none;
+  
 }
