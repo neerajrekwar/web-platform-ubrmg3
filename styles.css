@@ -13,10 +13,9 @@ body {
 }
 .container{
   margin-top: 20px;
-  border: solid yellowgreen;
+  /* border: solid yellowgreen; */
 }
 .display{
-  border-radius: 5px;
   display: inline-flex;
   background: #034078;
 }
@@ -25,7 +24,7 @@ svg{
   margin: 2px;
 }
 input{
-  border-radius:  5px 0 0 5px;
+  outline: none;
   font-size: larger;
   color: #0a1128;
   border: none;
@@ -36,4 +35,15 @@ input{
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+
+.btn{
+  margin-top: 20px;
+  background-color: #034078;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 3.0rem;
+  width: 12rem;
+  border: none;
 }
